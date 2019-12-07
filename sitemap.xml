@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url>
-	<loc>index.html</loc>
+	<loc>https://andjelamilovic.github.io/andjela/index.html</loc>
 	<lastmod>2019-12-05</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>1</priority>
 </url>
 <url>
-	<loc>menu.html</loc>
+	<loc>https://andjelamilovic.github.io/andjela/menu.html</loc>
 	<lastmod>2019-12-05</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>pizzastory.html</loc>
+	<loc>https://andjelamilovic.github.io/andjela/pizzastory.html</loc>
 	<lastmod>2019-12-05</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>contact.html</loc>
+	<loc>https://andjelamilovic.github.io/andjela/contact.html</loc>
 	<lastmod>2019-12-05</lastmod>
 	<changefreq>yearly</changefreq>
 	<priority>0.7</priority>
 </url>
 <url>
-	<loc>about.html</loc>
+	<loc>https://andjelamilovic.github.io/andjela/about.html</loc>
 	<lastmod>2019-12-05</lastmod>
 	<changefreq>yearly</changefreq>
 	<priority>0.7</priority>
