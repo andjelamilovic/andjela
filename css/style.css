@@ -1,0 +1,247 @@
+@font-face {
+	src:url("LibreFranklin.ttf");
+	font-family: "Libre";
+}
+* {
+    padding: 0px;
+    margin: 0px;
+	font-family: "Libre";
+    box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #cc211f;
+}
+ul {
+	list-style-type: none;
+}
+.cleaner{
+	clear:both;
+}
+#zaglavlje {
+    width: 100%;
+    height: 80px;
+    background-color:#fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+	padding: 0px 20px;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items: center;
+    z-index: 2;
+    box-shadow: 3px 3px 5px #666;
+}
+#logo img {
+    width: 70px;
+}
+#naslov h1 a{
+	color: #cc211f;
+}
+#zaglavlje nav ul {
+    height: 100%;
+    display: flex;
+}
+#zaglavlje nav ul li{
+	height: 100%;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+}
+#zaglavlje nav ul li a{
+    color: #000;
+}
+#zaglavlje nav ul li.aktivanLink{
+    border-bottom: 3px solid #cc211f;
+}
+#sadrzaj {
+	position: relative;
+	top: 80px;
+	background-image: url("../img/pozadina.jpg");
+	background-size: cover;
+	height: 1000px;
+	
+}
+#tekst {
+	position: absolute;
+	top: 10%;
+	right: 2%;
+	width: 400px;
+	color: #fff;
+	animation: pocetna 1s;
+}
+@keyframes pocetna {
+	0% { opacity: 0%;}
+	100% { opacity: 100%;}
+}	
+#tekst h1 {
+	font-size: 42px;
+}
+#tekst p {
+	margin: 10px 80px 0px 30px;
+	font-size: 23px;
+	
+}
+#linkmeni {
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #fff;
+	border-radius: 8px;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	height: 80px;
+	width: 100%;
+	padding: 0px 20px;
+	background-color:#fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#soc li {
+	display:inline-block;
+	margin-right: 10px;
+}
+#soc img {
+	width: 32px;
+}
+#xml ul{
+	display: flex;
+	align-items: center;
+}
+#xml ul li {
+	margin-right: 10px;
+}
+/* meni */
+#pozadina {
+	width: 100%;
+	min-height: 1000px;
+	background-image: url("../img/pozadina.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 200px 0px;
+}
+#menu {
+	background-color: rgba(255,255,255,0.8);
+	width: 85%;
+	padding: 20px 0px;
+	margin: 0px auto;
+	animation: menu 1s;
+}
+@keyframes menu {
+	0% {opacity: 0%;}
+	100% {opacity: 100%;}
+}
+.artikl {
+	height: 350px;
+	margin: 30px 10px;	
+}
+.artikl figure {
+	height: 350px;
+	width: 500px;
+	float: left;
+	text-align: center;
+}
+.artikl figcaption {
+	color: #cc211f;
+	font-size: 20px;
+	font-weight: bold;
+}
+.artikl figure img {
+	height: 300px;
+}
+.artikl h2, .artikl p {
+	float: right;
+	width: 600px;
+	margin-right: 40px;
+}
+.artikl p {
+	font-size: 20px;
+	text-align: justify;
+}
+.story {
+	width: 700px;
+	margin: 50px auto;
+	padding: 20px;
+	border-bottom: 2px dashed #cc211f;
+}
+.story p {
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: justify;
+	
+}
+.story h2 {
+	color: #cc211f;
+	font-size: 26px;
+	text-align: center;
+}
+#forma {
+	background-color: rgba(255,255,255,0.8);
+	width: 700px;
+	margin: 0px auto;
+	padding: 20px 0px;
+	animation: menu 1s;
+	text-align: center;
+}
+#forma h1 {
+	margin-bottom: 20px;
+}
+#contact {
+	padding: 20px 0px;
+	width: 500px;
+	height: 320px;
+	border: 2px dashed #000;
+	border-radius: 15px;
+	margin: 0px auto;
+	font-weight: bold;
+}
+#contact input{
+	border-radius: 5px;
+	height: 22px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+#contact textarea {
+	border-radius: 5px;
+	height: 50px;
+	width: 300px;
+}
+#contact button {
+	height: 25px;
+	width: 50px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#autor {
+	background-color: rgba(255,255,255,0.8);
+	width: 1000px;
+	margin: 0px auto;
+	padding: 20px 40px;
+	animation: menu 1s;
+}
+#autor img {
+	margin-top: 50px;
+	float: left;
+	width: 200px;
+}
+#autortekst {
+	float: right;
+	width: 600px;
+}
+#autortekst p {
+	text-align: justify;
+	font-size: 20px;
+}
+#autortekst h1, #autortekst h2 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}	
+#autortekst h1 {
+	font-size: 28px;
+}
+
